@@ -1,0 +1,19 @@
+{
+  "name": "crud-a3-estacionamento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src src/server.js"
+  },
+  "repository": "https://github.com/leonardoboasorte/CRUD-A3.git",
+  "author": "Leonardo Boa Sorte <leoboasorte.dev@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
