@@ -9,6 +9,7 @@
   "author": "Leonardo Boa Sorte <leoboasorte.dev@outlook.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongoose": "^8.0.2",
     "uuid": "^9.0.1"
