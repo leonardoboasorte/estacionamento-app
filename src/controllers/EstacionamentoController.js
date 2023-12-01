@@ -58,7 +58,9 @@ module.exports = {
 
     async delete(request, response) {
         try {
-            await response.clientP.remove();
+            console.log(response.clientP)
+            console.log(response)
+            await response.clientP.deleteOne()
             return response.status(200).json({message:"Cliente deletado"})
         } catch(err) {
             return response.status(500).json({ error: err.message })
